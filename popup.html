@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab Manager</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 300px; }
+    .tab-list { margin: 0; padding: 0; list-style: none; }
+    .tab-list li { margin: 0; padding: 5px; border-bottom: 1px solid #ddd; }
+    .tab-list a { text-decoration: none; color: #007bff; }
+    .tab-list a:hover { text-decoration: underline; }
+    .button-container { margin-top: 10px; }
+    .button-container button { padding: 5px 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Open Tabs</h1>
+  <ul class="tab-list" id="tab-list"></ul>
+  <div class="button-container">
+    <button id="close-all-btn">Close All Tabs</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

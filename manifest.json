@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Manager third",
+  "version": "1.0",
+  "description": "Shows all open URLs and closes all tabs with one click.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
